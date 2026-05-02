@@ -30,3 +30,5 @@ chmod +x scripts/*.sh
 wsl chmod +x scripts/*.sh
 # or in Git Bash: chmod +x scripts/*.sh
 ```
+
+**Note:** These scripts are designed for Linux systems and use Linux-specific commands. Run them on a Linux machine or in WSL with a Linux distribution installed (e.g., Ubuntu).
