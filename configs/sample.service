@@ -1,0 +1,10 @@
+[Unit]
+Description=Sample DevOps Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/bash /home/user/scripts/system_info.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
